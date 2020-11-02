@@ -9,5 +9,5 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
-      name: print branch
+      - name: print branch
         run: echo $GITHUB_REF
