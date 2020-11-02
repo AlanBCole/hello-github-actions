@@ -9,5 +9,5 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Alan"
-      name: print branch
+      - name: print branch
         run: echo "You are pushing code to -> $GITHUB_REF"
