@@ -10,4 +10,4 @@ jobs:
         with:
           MY_NAME: "Mona"
       - name: print branch
-        run: echo $GITHUB_REF
+        run: echo "The branch you are pushing code to is -> $GITHUB_REF"
